@@ -1,5 +1,7 @@
 # mpags-cipher
-A simple command line tool for encrypting/decrypting text using classical ciphers
+A simple command line tool for encrypting/decrypting text using classical ciphers.
+
+Implementation of the Caesar Cipher and Playfair Cipher, with some unit testing for the Caesar Cipher.
 
 ## Code layout
 We have created separate directories for holding the source files (under
