@@ -21,7 +21,7 @@ add_custom_command(
   # i   - we modify the Doxygen configuration
   # ii  - the sources being documented change
   # iii - any auxillary inputs change
-  DEPENDS Doxyfile.in MPAGSCipher ${PROJECT_SOURCE_DIR}/README.md ${PROJECT_SOURCE_DIR}/CMakeLists.txt
+  DEPENDS Doxyfile.in MPAGSCipher ${PROJECT_SOURCE_DIR}/README.md ${PROJECT_SOURCE_DIR}/CMakeLists.txt 
   # Log that the command is run
   COMMENT "Doxygenating ${PROJECT_NAME}"
   )
